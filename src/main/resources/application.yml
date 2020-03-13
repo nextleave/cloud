@@ -5,6 +5,8 @@ logging:
   level:
     com.geblob.cloud.controller: debug
 spring:
-  activemq:
-    user: admin
+  rabbitmq:
     password: admin
+    port: 5672
+    host: vision
+    username: admin
