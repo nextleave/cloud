@@ -1,0 +1,10 @@
+server:
+  #  port: ${random.int[1024,9999]}
+  port: 9090
+logging:
+  level:
+    com.geblob.cloud.controller: debug
+spring:
+  activemq:
+    user: admin
+    password: admin
