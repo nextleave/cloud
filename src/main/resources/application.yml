@@ -8,5 +8,5 @@ spring:
   rabbitmq:
     password: admin
     port: 5672
-    host: vision
+    host: 127.0.0.1
     username: admin

@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 public class Receiver {
     private static final Logger logger = LoggerFactory.getLogger(Receiver.class);
 
-    @RabbitListener
+    @RabbitListener(queues = "cloud")
     public void process(Object msg) {
         logger.info(msg.toString());
     }
